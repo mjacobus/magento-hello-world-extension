@@ -10,6 +10,8 @@
                 <use>standard</use>
                 <args>
                     <module>TinyApps_HelloWorld</module>
+                    <!-- this is the url that will trigger the controller to be called -->
+                    <!-- /helloworld/:controller/:action -->
                     <frontName>helloworld</frontName>
                 </args>
             </helloworld>
