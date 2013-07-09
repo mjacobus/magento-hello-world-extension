@@ -1,0 +1,18 @@
+<config>
+    <modules>
+        <TinyApps_HelloWorld>
+            <version>0.1.0</version>
+        </TinyApps_HelloWorld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>TinyApps_HelloWorld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+    </frontend>
+</config>
