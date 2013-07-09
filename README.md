@@ -2,8 +2,9 @@
 ## what it is
 This is an example tutorial repository that explains how to create a plugin for magento.
 
-## What it does
+As it grows in features it is split into different branches.
 
+## What it does
 
 
 * [step 1](https://github.com/tinyapps-br/magento-hello-world-extension/tree/step-1)
