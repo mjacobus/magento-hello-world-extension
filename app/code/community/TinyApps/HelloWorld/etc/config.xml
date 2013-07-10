@@ -16,5 +16,19 @@
                 </args>
             </helloworld>
         </routers>
+        <layout>
+            <updates>
+                <helloworld>
+                    <file>helloworld.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
     </frontend>
+    <global>
+        <blocks>
+            <helloworld>
+                <class>TinyApps_HelloWorld_Block</class>
+            </helloworld>
+        </blocks>
+    </global>
 </config>

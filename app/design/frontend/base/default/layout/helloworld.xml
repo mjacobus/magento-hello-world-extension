@@ -1,0 +1,21 @@
+<layout>
+
+    <!-- this adds the block to the ation -->
+    <helloworld_index_index>
+        <reference name="content">
+            <block type="helloworld/helloWorld"
+                   name="test"
+                   template="tinyapps/helloworld/blocks/fancy_hello.phtml" />
+        </reference>
+    </helloworld_index_index>
+
+
+    <!-- this change the layout of the action -->
+    <helloworld_index_goodbye>
+        <block
+            type="page/html"
+            name="root"
+            template="tinyapps/helloworld/fancy_hello.phtml"
+        />
+    </helloworld_index_goodbye>
+</layout>

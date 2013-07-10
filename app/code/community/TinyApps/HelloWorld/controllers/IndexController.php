@@ -1,6 +1,8 @@
 <?php
 
 /**
+ * @author Marcelo Jacobus <marcelo.jacobus@gmail.com>
+ *
  * Paths follow the following pattern:
  * /:module/:controller/:action
  *
@@ -14,6 +16,7 @@
  */
 class TinyApps_HelloWorld_IndexController extends Mage_Core_Controller_Front_Action
 {
+
     /**
      * paths: /helloworld/
      *        /helloworld/index
@@ -23,8 +26,10 @@ class TinyApps_HelloWorld_IndexController extends Mage_Core_Controller_Front_Act
      */
     public function indexAction()
     {
-        $name = $this->getRequest()->getParam('name', 'World');
-        echo "Hello $name!";
+        // Loads layouts inside app/design/frontend/base/default/layout
+        // The layout of this page is in the helloworld.xml
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
     /**
@@ -33,7 +38,7 @@ class TinyApps_HelloWorld_IndexController extends Mage_Core_Controller_Front_Act
      */
     public function goodByeAction()
     {
-        $name = $this->getRequest()->getParam('name', 'World');
-        echo "Good bye $name! We will miss you.";
+        $this->loadLayout()->renderLayout();
     }
+
 }

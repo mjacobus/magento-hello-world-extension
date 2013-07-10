@@ -16,8 +16,13 @@ As it grows in features it is split into different branches.
   /helloworld/index/goodbye?name=yourname
 ```
 
+* [step 2](https://github.com/tinyapps-br/magento-hello-world-extension/tree/step-2)
+  * The previous index action renders a custom block
+  * The previous goodbye action renders a different layout
+
 ## Author
 Marcelo Jacobus
 
 ## Kudos
 * Alan Storm for [this tutorial](http://alanstorm.com/magento_controller_hello_world).
+* Manish Prakash [for this tutorial serie](http://www.excellencemagentoblog.com/magento-blogs/module-development-series/)
